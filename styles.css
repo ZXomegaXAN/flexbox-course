@@ -1,0 +1,96 @@
+.heading {
+  padding: 42px;
+  background-color: #e8e8e8;
+	-webkit-animation: myAnimation 5s infinite;
+	animation: myAnimation 5s infinite;
+}
+
+@-webkit-keyframes 'myAnimation' {
+  50% {
+    background-color: #d3d3d3;
+  }
+}
+
+@keyframes 'myAnimation' {
+  50% {
+    background-color: #d3d3d3;
+  }
+}
+
+.package {
+	transition: background-color 500ms ease-out 1s;
+  background-color: #e8e8e8;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 50px;
+  font-size: 1.2em;
+  border-bottom: 10px solid  rgb(131, 0, 0);
+  width: 200px;
+}
+
+#pricing-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: #ab3939;
+}
+
+a:active {
+  color: blue;
+}
+
+div:hover.package {
+	color: white;
+	cursor: pointer;
+	background-color:green
+}
+
+button {
+	transition: background-color 450ms ease-out 1s;
+	background-color: rgb(116, 0, 0);
+	border-radius: 5px;
+	align-content: center;
+	border-color: blue;
+	border: none;
+	color: white;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: black;
+	color: blue;
+}
+
+button:visited {
+	color: purple;
+}
+
+#blocks {
+  position: absolute;
+}
+
+.block {
+  height: 140px;
+  width: 250px;
+	background-color: #ab3939;
+	margin: 40px;
+	float: left;
+}
+
+form {
+	position: absolute;
+}
